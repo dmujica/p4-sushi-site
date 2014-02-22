@@ -4,8 +4,6 @@ $(document).foundation();
 // Your Awesome Scripts!
 $(document).ready(function(){
 
-	$(".main").onepage_scroll();
-
 		new Maplace({
 		show_markers: true,
 		locations: [{
