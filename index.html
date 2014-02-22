@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>
+    <title>Sushi Maru</title>
 
+    <link rel="shortcut icon" href="http://sushimaruspokane.com/wp-content/uploads/logo-icon3.png">
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/onepage-scroll.css" />
     <link rel="stylesheet" href="css/styles.css" />
@@ -15,12 +16,20 @@
   
  
    <div class="main">
+    <div class="columns large-12">
+      <div class="row">
+        <section>
+          <img class="logo" src="img/logo.png" alt="">
+          <img src="img/main-page.jpg" alt=""> 
+        </section>
+      </div>
+    </div>
     <section>
       <div class="row">
         <div class="columns large-12">
            <div class="row carousel">
    <div class="large-12 columns">
-     <ul class="example-orbit" data-orbit>
+     <ul id="mainmenu" class="example-orbit" data-orbit>
       <li>
         <div class="panel-text">
           <img src="http://placehold.it/500x400">
@@ -54,20 +63,25 @@
       </div>
     </section>
     <section>
-      <img src="http://placehold.it/1400x900">
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, quisquam, eum unde qui minus enim odio in odit similique eius labore nesciunt ducimus consequatur ad quibusdam deleniti inventore quasi placeat.</p>
-    </section>
-    <section>
-      <img src="http://placehold.it/1400x900">
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, quisquam, eum unde qui minus enim odio in odit similique eius labore nesciunt ducimus consequatur ad quibusdam deleniti inventore quasi placeat.</p>
-    </section>
+        <div class="row">
+      <div class="columns large-12">
+         
+         <h1>Better Option</h1> 
+        
+          <div id="gmap"></div>
+
+      </div>
     </div>
+    </section>
+    
     
 
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/onepage-scroll.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=false&libraries=geometry&v=3.7"></script>
+    <script src="js/map.js"></script>
     <script src="js/scripts.js"></script>
 
   </body>
