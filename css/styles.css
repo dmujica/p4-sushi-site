@@ -1,19 +1,18 @@
-/* Your Awesome Website */
+/* global */
 
 body {
 	background: url(../img/arches2.png);
-	
-
 }
 
+li {
+	list-style: none;
+}
+
+/* nav */
 
 .logo-top {
-	background: rgba(0, 0, 0, .1);
+	background: rgba(0, 0, 0, .25);
 
-}
-
-.logo-top li{
-	list-style: none;
 }
 
 .logo-top ul {
@@ -29,7 +28,8 @@ body {
 .tel,
 .icon {
 	float: right;
-	padding-bottom: 25px;	 
+	padding: 15px 0 25px 0;
+
 }
 
 .icon {
@@ -38,30 +38,40 @@ body {
 
 
 .tel {
-	padding: 10px 0 0 10px;
+	padding: 20px 0 0 10px;
+
 }
 
-.logo-top a:hover h6{
+.tel h5 {
 	color: white;
 }
 
-.orbit-bullets li {
-	display: none;
+.logo-top a:hover h5{
+	color: black;
 }
+
+/* slider */
+ 
 
 .orbit-prev,
 .orbit-next {
 	background: #F2F2F2;
 }
 
+.orbit-bullets li,
 .orbit-timer {
 	display: none;
 }
 
 .menu-text {
-	padding: 60px 30px 0 0;
+	padding: 100px 50px 0 0;
+} 
+
+.menu-text h5 {
+	text-align: left;
 }
 
+/* footer */
 #gmap {
 	height: 350px;
 	padding: 50px 0 50px 0;
@@ -71,18 +81,26 @@ body {
 	padding: 35px 0 0 25px;
 }
 
-.info li {
-	list-style: none;
-}
-
-.info a{
-	color: #000;
+.info a,
+.info li, 
+.info h3{
+	color: #fff;
 }
 
 .info a:hover {
-	color: rgb(203, 36, 26);
+	color: #000;
 }
 
 .footer {
-	background: rgba(0, 0, 0, .1);
+	background: rgba(0, 0, 0, .25);
+}
+
+@media screen and (max-width: 480px) {
+	.icon {
+		display: none;
+	}
+
+	.menu-text {
+	padding: 20px 0 0 0;
+} 
 }

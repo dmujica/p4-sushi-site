@@ -10,7 +10,7 @@ $(document).ready(function(){
 		locations: [{
 			lat: 47.659381, 
 			lon: -117.4236639,
-			zoom: 15
+			zoom: 14
 		}]
 	}).Load(); 
 
