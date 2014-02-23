@@ -1,13 +1,42 @@
 /* Your Awesome Website */
 
+body {
+	background: url(../img/arches2.png);
+	
 
+}
+
+.tel {
+	padding-top: 50px;
+}
+
+.tel a{
+	color: black;
+}
+
+.tel a:hover{
+	color: rgb(203, 36, 26);
+}
 
 .logo {
 	padding: 50px 0 25px 50px;
 }
 
-.example-orbit {
-	
+.menu {
+	padding-left: 60px;
+}
+
+.orbit-bullets li {
+	display: none;
+}
+
+.orbit-prev,
+.orbit-next {
+	background: #F2F2F2;
+}
+
+.orbit-timer {
+	display: none;
 }
 
 .menu-text {
@@ -33,4 +62,8 @@
 
 .info a:hover {
 	color: rgb(203, 36, 26);
+}
+
+.footer {
+	padding-top: 80px;
 }
