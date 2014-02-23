@@ -96,6 +96,11 @@ li {
 }
 
 @media screen and (max-width: 480px) {
+	.logo {
+		padding-left: 80px;
+	}
+
+	.tel,
 	.icon {
 		display: none;
 	}
