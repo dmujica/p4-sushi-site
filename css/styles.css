@@ -1,7 +1,7 @@
 /* Your Awesome Website */
 
 .logo {
-	padding: 25px 0 25px 0;
+	padding: 50px 0 25px 50px;
 }
 
 #gmap {
@@ -10,6 +10,5 @@
 }
 
 .menu-text {
-	padding-top: 60px;
-	padding-right: 50px;
+	padding: 60px 50px 0 0;
 }
