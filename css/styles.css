@@ -80,7 +80,7 @@ li {
 
 .info a,
 .info li, 
-.info h3{
+.info h4{
 	color: #fff;
 }
 
@@ -88,6 +88,9 @@ li {
 	color: #000;
 }
 
+.info li {
+	font-size: .9em;
+}
 .footer {
 	background: rgba(0, 0, 0, .25);
 }
